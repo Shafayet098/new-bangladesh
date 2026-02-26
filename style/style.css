@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+/* Navigation */
+.b_nav {
+    color: rgba(14, 14, 14, 1);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.btn {
+    color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px 10px 150px;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px 80px 150px;
+    padding: 80px 100px 80px 100px;
+    gap: 64;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+}
+
+.banner-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner-about {
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.btn-explore {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+}
+
+/* Pillars */
+#pillars {
+    margin: 0px 150px 80px 150px;
+}
+
+.pillars-title {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.innovation {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.innovation-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.pillars-box {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+}
+
+.parent-of-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+
+.vision-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.vision-card {
+    max-width: 410.67px;
+    max-height: 325px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+.vision-btn {
+    border-radius: 8px;
+    background: rgba(84, 144, 245, 1);
+    max-width: 122px;
+    max-height: 41px;
+    padding: 11px 20px 11px 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+}
+
+.vision-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+
+#yunus {
+    margin: 0px 150px 80px 150px;
+    max-width: 1280px;
+    max-height: 256px;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    background-image: url(./../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 27px;
+    background-position-y: 38px;
+    opacity: 0.7;
+}
+
+#opinion {
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    height: 700px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin: 0px 150px 80px 150px;
+}
+
+.question {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    max-width: 1280px;
+    padding: 32px;
+}
+
+.head-question {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(198, 228, 214, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header-question {
+    color: rgba(14, 14, 14, 1);
+    font-size: 20px;
+    font-weight: 600px;
+    background: rgba(198, 228, 214, 1);
+}
+
+.head-question-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-question-1 {
+    color: rgba(14, 14, 14, 1);
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 24px;
+}
+
+.header-question-1-select {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    max-width: 200px;
+    max-height: 150px;
+    padding: 33px 15px 5px 15px;
+}
+
+.select-head {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
+    width: 152px;
+    align-items: center;
+    padding: 10px 14px 10px 14px;
+}
+
+.recent {
+    margin: 150px 150px 80px 150px;
+}
+
+.news-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.new-card {
+    max-width: 1280px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    align-items: center;
+    justify-content: center;
+}
+
+.image-news {
+    border-radius: 24px;
+
+}
+
+.launches {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.date {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-heading {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-btn {
+    background: rgba(0, 106, 80, 1);
+    color: white;
+}
+
+.news-headline {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#donation {
+    margin: 50px 150px 80px 150px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.donate-head {
+    align-content: center;
+    text-align: center;
+}
+
+.donation-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.donate-taka {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+
+.taka {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    max-width: 250px;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+.text-box-container {
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-box {
+    width: 90%;
+    height: 50px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 20px;
+}
+.btn-donate{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe{
+    max-width: 850px;
+    margin: 100px auto;
+    background-color: #C6E4D6;
+    padding: 60px 120px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.email{
+    width: 40%;
+    height: 63px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 20px;
+}
+.subscribe-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+    
+}
+.btn-subs {
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 106, 80, 1);
+    padding: 20px 30px;
+}
+.social-icon{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
